@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+         crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <style>
+      body > .grid {
+      height: 100%;
+    }
+    body{
+      /*background-color:#32dbd7;*/
+    
+      background: rgba(25,134,132,1);
+      background: -webkit-radial-gradient(circle, rgba(25,134,132,0),rgba(25,134,132,1));
+      background: -o-radial-gradient(circle, rgba(25,134,132,0),rgba(25,134,132,1)); 
+      background: -moz-radial-gradient(circle, rgba(25,134,132,0),rgba(25,134,132,1));
+      background: radial-gradient(circle, rgba(25,134,132,0),rgba(25,134,132,1));
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+    </style>
+</head>
+<body>
+<div class="ui top fixed menu massive">
+  <div class="item">
+  <i class="play icon"> </i>
+  </div>
+  <div class="item">
+    IITM Video
+  </div>
+</div>
+<div class="ui middle aligned center aligned grid">
+  <div class="column">
+    <h2 class="ui image header">
+      <div class="content">
+        Login
+      </div>
+    </h2>
+    <form action="" method="get" class="ui large form">
+      <div class="ui stacked secondary  segment">
+        <div class="field">
+          
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input type="text" name="rollNumber" placeholder="Roll Number">
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="lock icon"></i>
+            <input type="password" name="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="ui fluid large primary submit button">Login</div>
+      </div>
+
+    </form>
+
+    
+  </div>
+</div>
+</body>
+</html>
